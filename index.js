@@ -514,7 +514,7 @@ const fitem = (teks) => {
             drm.sendMessage(from, teks, text, {
                 quoted: {
         key:{
-        	fromMe:false,
+        	fromMe: false,
         participant:`0@s.whatsapp.net`, ...(from ? {
 remoteJid :"6289523258649-1604595598@g.us" }: {})
                     },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`image/drm.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`Halllo ${puhsname}`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
